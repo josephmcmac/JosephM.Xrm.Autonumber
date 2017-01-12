@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosephM.Xrm.Autonumber", "JosephM.Xrm.Autonumber\JosephM.Xrm.Autonumber.csproj", "{C1680534-FA12-4C76-A7A4-4F1843D7DCC2}"
 EndProject
@@ -9,16 +9,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosephM.Xrm.Autonumber.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosephM.Xrm.Autonumber.EncryptXrmConfig", "JosephM.Xrm.Autonumber.EncryptXrmConfig\JosephM.Xrm.Autonumber.EncryptXrmConfig.csproj", "{EEED9F66-183F-41EA-A07C-14A17C05811F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3F661C9-1761-4285-86A1-3870DA9283CE}"
-	ProjectSection(SolutionItems) = preProject
-		Solution Items\Customisations.xls = Solution Items\Customisations.xls
-		Solution Items\JosephMcGregorAutonumber_unmanaged.zip = Solution Items\JosephMcGregorAutonumber_unmanaged.zip
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Read Me", "Read Me", "{599B52D6-3801-4657-AE0C-51B0C4006C39}"
 	ProjectSection(SolutionItems) = preProject
 		Read Me\Configuring Test Script.docx = Read Me\Configuring Test Script.docx
 		Read Me\Solution Details.docx = Read Me\Solution Details.docx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosephM.Xrm.Autonumber.WebResources", "JosephM.Xrm.Autonumber.WebResources\JosephM.Xrm.Autonumber.WebResources.csproj", "{FF7409D8-1099-4DBF-BA54-F54D6BFD87C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{36759AEE-5373-4A5B-BAFD-EAB51E2972FA}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\Customisations.xls = SolutionItems\Customisations.xls
+		SolutionItems\JosephMcGregorAutonumber_1_0_0_0.zip = SolutionItems\JosephMcGregorAutonumber_1_0_0_0.zip
+		SolutionItems\solution.xrmconnection = SolutionItems\solution.xrmconnection
 	EndProjectSection
 EndProject
 Global
@@ -39,6 +42,10 @@ Global
 		{EEED9F66-183F-41EA-A07C-14A17C05811F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEED9F66-183F-41EA-A07C-14A17C05811F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEED9F66-183F-41EA-A07C-14A17C05811F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7409D8-1099-4DBF-BA54-F54D6BFD87C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7409D8-1099-4DBF-BA54-F54D6BFD87C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7409D8-1099-4DBF-BA54-F54D6BFD87C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7409D8-1099-4DBF-BA54-F54D6BFD87C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

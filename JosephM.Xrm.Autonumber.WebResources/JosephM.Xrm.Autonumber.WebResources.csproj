@@ -42,10 +42,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="JavaScript\jmcg_jm_exampleentity.js" />
-    <Content Include="JavaScript\jmcg_jm_pageutility.js" />
-    <Content Include="JavaScript\jmcg_jm_webresourceutility.js" />
-    <Content Include="JavaScript\jmcg_jm_webserviceutility.js" />
+    <Content Include="HTML\jmcg_an_configuration.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
