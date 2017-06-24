@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutonumberConfigPluginRegistration.cs" />
+    <Compile Include="Core\JsonHelper.cs" />
     <Compile Include="OptionSets.cs" />
     <Compile Include="PluginTypes.cs" />
     <Compile Include="Schema.cs" />
