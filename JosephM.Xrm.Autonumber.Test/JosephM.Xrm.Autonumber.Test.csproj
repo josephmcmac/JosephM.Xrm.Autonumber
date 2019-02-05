@@ -36,9 +36,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JosephM.Core">
-      <HintPath>..\JosephM.Xrm.Autonumber.EncryptXrmConfig\Lib\JosephM.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Xrm.Sdk">
       <HintPath>..\JosephM.Xrm.Autonumber\Lib\Microsoft.Xrm.Sdk.dll</HintPath>
     </Reference>
@@ -63,7 +60,6 @@
     <Compile Include="AutonumberTests.cs" />
     <Compile Include="JosephMXrmTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestXrmConfiguration.cs" />
     <Compile Include="XrmTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -71,17 +67,6 @@
       <Project>{C1680534-FA12-4C76-A7A4-4F1843D7DCC2}</Project>
       <Name>JosephM.Xrm.Autonumber</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TestXrmConfiguration.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\SolutionItems\solution.xrmconnection">
-      <Link>solution.xrmconnection</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

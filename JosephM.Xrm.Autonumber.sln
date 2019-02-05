@@ -7,24 +7,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosephM.Xrm.Autonumber", "J
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosephM.Xrm.Autonumber.Test", "JosephM.Xrm.Autonumber.Test\JosephM.Xrm.Autonumber.Test.csproj", "{D2DD2587-B577-487B-BF48-6B364D9958BD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Read Me", "Read Me", "{599B52D6-3801-4657-AE0C-51B0C4006C39}"
-	ProjectSection(SolutionItems) = preProject
-		Read Me\Solution Details.docx = Read Me\Solution Details.docx
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosephM.Xrm.Autonumber.WebResources", "JosephM.Xrm.Autonumber.WebResources\JosephM.Xrm.Autonumber.WebResources.csproj", "{FF7409D8-1099-4DBF-BA54-F54D6BFD87C3}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{36759AEE-5373-4A5B-BAFD-EAB51E2972FA}"
-	ProjectSection(SolutionItems) = preProject
-		SolutionItems\solution.xrmconnection = SolutionItems\solution.xrmconnection
-		SolutionItems\xrmpackage.xrmsettings = SolutionItems\xrmpackage.xrmsettings
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customisations", "Customisations", "{088BF962-6C88-410C-AB26-DE56D9B7E831}"
 	ProjectSection(SolutionItems) = preProject
 		Customisations\Customisations.xlsx = Customisations\Customisations.xlsx
 		Customisations\JosephMcGregorAutonumber_1_0_0_0.zip = Customisations\JosephMcGregorAutonumber_1_0_0_0.zip
-		..\JosephM.Xrm.Autonumber/Customisations\JosephMcGregorAutonumber_1_0_1_0.zip = ..\JosephM.Xrm.Autonumber/Customisations\JosephMcGregorAutonumber_1_0_1_0.zip
+		Customisations\JosephMcGregorAutonumber_1_0_1_0.zip = Customisations\JosephMcGregorAutonumber_1_0_1_0.zip
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xrm.Vsix", "Xrm.Vsix", "{D7AD33B0-2F6C-414A-98E4-559BA70A884D}"
+	ProjectSection(SolutionItems) = preProject
+		Xrm.Vsix\joseph.mcgregor-macd.solution.xrmconnection = Xrm.Vsix\joseph.mcgregor-macd.solution.xrmconnection
+		Xrm.Vsix\joseph.mcgregor-macd.xrmpackage.xrmsettings = Xrm.Vsix\joseph.mcgregor-macd.xrmpackage.xrmsettings
 	EndProjectSection
 EndProject
 Global
@@ -48,5 +43,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {794885E0-204F-41E1-B86B-3F7496483143}
 	EndGlobalSection
 EndGlobal
