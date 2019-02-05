@@ -22,6 +22,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xrm.Vsix", "Xrm.Vsix", "{D7
 		Xrm.Vsix\joseph.mcgregor-macd.xrmpackage.xrmsettings = Xrm.Vsix\joseph.mcgregor-macd.xrmpackage.xrmsettings
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Releases", "Releases", "{5CB1A192-EECF-4050-8862-1D470B1825C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0.2.0", "1.0.2.0", "{227B6842-D728-4AC2-9415-8F0825231F53}"
+	ProjectSection(SolutionItems) = preProject
+		Releases\1.0.2.0\JosephMcGregorAutonumber_1_0_2_0.zip = Releases\1.0.2.0\JosephMcGregorAutonumber_1_0_2_0.zip
+		Releases\1.0.2.0\JosephMcGregorAutonumber_1_0_2_0_managed.zip = Releases\1.0.2.0\JosephMcGregorAutonumber_1_0_2_0_managed.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +51,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{227B6842-D728-4AC2-9415-8F0825231F53} = {5CB1A192-EECF-4050-8862-1D470B1825C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {794885E0-204F-41E1-B86B-3F7496483143}

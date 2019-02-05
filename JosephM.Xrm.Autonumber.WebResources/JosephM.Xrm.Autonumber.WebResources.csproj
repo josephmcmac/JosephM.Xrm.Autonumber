@@ -43,6 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HTML\jmcg_an_configuration.html" />
+    <Content Include="JavaScript\jmcg_an_jquery.js" />
+    <Content Include="JavaScript\jmcg_an_pageutility.js" />
+    <Content Include="JavaScript\jmcg_an_webserviceutility.js" />
+    <Content Include="JavaScript\jmcg_an_autonumber.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
