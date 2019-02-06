@@ -73,7 +73,7 @@ autoNumberJs.PopulateFieldsList = function () {
     var entityType = autonumberPageUtility.GetFieldValue("jmcg_entitytype");
     var processResults = function (results) {
         var newArray = new Array();
-        var validTypes = ["String"];
+        var validTypes = ["String", "Integer"];
         var ignoreFields = [];
         for (var j = 0; j < results.length; j++) {
             if (autonumberPageUtility.ArrayContains(validTypes, results[j].FieldType)

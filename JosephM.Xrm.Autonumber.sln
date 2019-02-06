@@ -30,6 +30,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0.2.0", "1.0.2.0", "{227B
 		Releases\1.0.2.0\JosephMcGregorAutonumber_1_0_2_0_managed.zip = Releases\1.0.2.0\JosephMcGregorAutonumber_1_0_2_0_managed.zip
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0.2.1", "1.0.2.1", "{BBEB84C9-ADF6-4B02-BB85-D6869BC830F8}"
+	ProjectSection(SolutionItems) = preProject
+		Releases\1.0.2.1\JosephMcGregorAutonumber_1_0_2_1.zip = Releases\1.0.2.1\JosephMcGregorAutonumber_1_0_2_1.zip
+		Releases\1.0.2.1\JosephMcGregorAutonumber_1_0_2_1_managed.zip = Releases\1.0.2.1\JosephMcGregorAutonumber_1_0_2_1_managed.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +60,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{227B6842-D728-4AC2-9415-8F0825231F53} = {5CB1A192-EECF-4050-8862-1D470B1825C5}
+		{BBEB84C9-ADF6-4B02-BB85-D6869BC830F8} = {5CB1A192-EECF-4050-8862-1D470B1825C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {794885E0-204F-41E1-B86B-3F7496483143}
